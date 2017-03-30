@@ -16,7 +16,7 @@
             "authorizationUrl": "https://www.runscope.com/signin/oauth/authorize",
             "tokenUrl": "https://www.runscope.com/signin/oauth/access_token",
             "flow": "application",
-            "scopes": {
+            "scopes": 
                 "api:read": "Default read access.",
                 "bucket:auth_token": "Allows you to read all bucket information, including Authenticated Buckets.",
                 "bucket:write": "Allows you to create new buckets on behalf of the user (up to their plan limit).",
@@ -1063,7 +1063,7 @@
                 "teams": {
                     "type": "array",
                     "items": {
-                        "$ref": "/#definitions/Team"
+                        "$ref": "#/definitions/Team"
                     }
                 }
             }
